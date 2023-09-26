@@ -99,4 +99,4 @@ client.on("messageCreate", async msg => {
 })
 
 
-client.login('OTc3MTQ4MzIxNjgyNTc1NDEw.GAG0i1.sGJlfZY9aLccX2ePTu6Zavi3qiFEpqdvT-iHI4');
+client.login('');
