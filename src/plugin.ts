@@ -8,7 +8,7 @@ import axios from "axios"
 import data from "./data"
 import { FilterRoot } from "./type"
 
-class NewPlayer extends OldPlayer {
+export class NewPlayer extends OldPlayer {
   public async filter(type: string) {
     const filterData = data[type as keyof FilterRoot]
     if (!filterData) throw new KazagumoError(404, "Filter not found")
