@@ -43,11 +43,7 @@ const KazagumoFilter = require('kazagumo-filter');
 const kazagumo = new Kazagumo(
   {
     plugins: [
-      new KazagumoFilter({
-        countryCode: "us", // Default is "us"
-        imageWidth: 600, // Default is 600
-        imageHeight: 900 // Default is 900
-      }),
+      new KazagumoFilter(),
     ],
   },
   new Connectors.DiscordJS(client),
